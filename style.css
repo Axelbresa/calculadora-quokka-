@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .calculator {
+    width: 300px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.1);
+    background-color: black;
+  }
+  
+  .calculator input[type="button"] {
+    width: 60px;
+    height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .calculator .numero{
+    background-color: rgb(208, 255, 0);
+  }  
+
+  .calculator .numero:hover{
+    background-color: rgb(132, 0, 255);
+    color: #ccc;
+  }  
+  
+  .calculator .operacion{
+    background-color: rgb(2, 40, 255);
+  }  
+
+  .calculator .operacion:hover{
+    background-color: rgb(2, 255, 179);
+  }  
+
+  .calculator .igual{
+    background-color: rgb(41, 251, 4);
+  }  
+
+  .calculator .igual:hover{
+    background-color: rgb(10, 50, 0);
+    color: #ccc;
+  }  
+
+  .calculator .borrar{
+    background-color: rgb(255, 0, 0);
+  }  
+
+  .calculator .borrar:hover{
+    background-color: rgb(255, 0, 119);
+  }  
+  
+  .calculator input[type="text"] {
+    width: 95%;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #545454;
+  }
+  
